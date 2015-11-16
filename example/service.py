@@ -20,10 +20,10 @@ def service(loop):
     def method(p1):
         print('method called with ' + p1)
         return 'hello world'
-    service.method('method_name', method, input='s', output='s')
+    service.method('method_name', method, ins='s', outs='s')
 
     
-    service.signal('signal_name', output='s')
+    service.signal('signal_name', 's')
 
 
     bus = Session(loop)
