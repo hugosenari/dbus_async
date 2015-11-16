@@ -9,10 +9,22 @@ dbus_async
         :target: https://pypi.python.org/pypi/dbus_async
 
 
-Python Lib for DBus using async io
+Python Lib for DBus using asyncio
 
 * Free software: ISC license
 * Documentation: https://dbus_async.readthedocs.org.
+
+
+TODO
+----
+
+* TODO
+ * TODO
+  * TODO
+   * TODO
+    * TODO
+     * TODO
+
 
 Features
 --------
