@@ -1,6 +1,6 @@
 from os import environ, path, walk
-import asyncio as aio
 from socket import AF_INET, AF_INET6
+import asyncio as aio
 
 SYSTEM_ENV = "DBUS_SYSTEM_BUS_ADDRESS"
 SYSTEM_DEFAULT = 'unix:path=/var/run/dbus/system_bus_socket'
